@@ -1,0 +1,39 @@
+.addproductpopup {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.addproductpopup-content {
+    width: calc(100% - 40px);
+    margin: 20px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding:10px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+  }
+
+  .addproductpopup-content input{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #3CC47E;
+    border-radius: 8px;
+  }
+  .addproductpopup-content label{
+    padding: 5px;
+    margin: 5px;
+  }  
+
+.w100{
+    width: calc(100% - 10px);
+  }
+.w50{
+    width: calc(50% - 10px);
+  }
